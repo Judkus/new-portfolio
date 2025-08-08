@@ -300,6 +300,35 @@ section {
     }
 }
 
+/* --- EXTRA MOBILE RESPONSIVENESS --- */
+@media (max-width: 400px) {
+    html {
+        font-size: 14px;
+    }
+    .container {
+        width: 98%;
+        padding: 0 2px;
+    }
+    .navbar-list {
+        gap: 0.2em;
+    }
+    .project-box, .skills-list li {
+        font-size: 0.95em;
+        padding: 0.5em 0.7em;
+    }
+    section h2 {
+        font-size: 1.2em;
+        padding-left: 0.7em;
+    }
+    section h2::before {
+        height: 1em;
+    }
+    .profile-img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
 /* --- SECTION TITLE DECORATION --- */
 section h2 {
     position: relative;
